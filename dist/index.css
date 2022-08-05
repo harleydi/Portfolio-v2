@@ -4,4 +4,10 @@ body {
   padding: 0;
   color: white;
   height: 100vh;
+}
+
+@media all and (max-width: 640px) {
+  body {
+    width: auto;
+  }
 }/*# sourceMappingURL=index.css.map */

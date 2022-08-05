@@ -4,16 +4,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // margin: 0;
-    // padding: 0;
     height: 5vh;
-    width: 100vw;
-    // background-color: rgba($color: black, $alpha: .4);
-    // background: $card-color;
-    // background-color: #e9bcb7;
-    // background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-    // background-color: #7f53ac;
-    // background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    width: auto;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1rem);
+    
+
+    // Nav Border 
+    border: 1px solid transparent;
+    border-bottom-color: #e1e1e11a;
+    border-left-color: #e1e1e180;
+    border-right-color: #e1e1e11a;
 }
 
 .logo {
@@ -40,17 +41,24 @@
     font-family: 'Lato', sans-serif;
     // font-size: large;
     li {
-        // margin-right: .5em;
-        // text-decoration: none;
+        padding: 16px;
     }
     a {
         text-decoration: none;
-        font-weight: 100;
+        font-weight: 200;
         color: $primary-white;
     }
 
 
 }
+
+.active-link {
+    background-image: $ap-color;
+    
+}
+
+
+
 
 @media all and (max-width: 640px) {
     .nav {

@@ -1,12 +1,15 @@
 @import './variables.scss';
 
 body {
-    background: $primary-background;
+    // background: $primary-background;
+    background: #222;
     margin: 0;
     padding: 0;
     color: $primary-white;
     height: 100vh;
 }
+
+
 
 @media all and (max-width: 640px) {
     body {

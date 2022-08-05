@@ -1,14 +1,62 @@
+.mainTitle {
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+}
+.form label {
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 10px;
+}
+.form label input {
+  margin: 0.5rem;
+  height: 2rem;
+  width: 20rem;
+}
+.form label textarea {
+  margin: 0.5rem;
+  height: 8rem;
+  width: 20rem;
+}
+.form button {
+  margin: 0;
+  padding: 0;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
 .icons {
-  display: flexbox;
-  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
 }
 
 img {
-  height: 8rem;
-  width: 8rem;
+  height: 3rem;
+  width: 3rem;
 }
 
-img:hover {
-  transition: all 0.8s ease;
-  padding-bottom: 8rem;
+@media all and (max-width: 640px) {
+  .form button {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    margin-right: 2rem;
+  }
 }/*# sourceMappingURL=contact.css.map */

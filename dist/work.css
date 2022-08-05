@@ -49,6 +49,13 @@
   justify-content: space-evenly;
 }
 
+a {
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+  color: black;
+}
+
 .live {
   background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
   border: none;
@@ -61,4 +68,17 @@
   margin: 0;
   padding: 0;
   margin-top: 2rem;
+}
+
+@media all and (max-width: 640px) {
+  .showcase {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
 }/*# sourceMappingURL=work.css.map */

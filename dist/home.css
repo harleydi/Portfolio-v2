@@ -32,7 +32,15 @@ button {
   margin-top: 5rem;
 }
 
-button:hover {
-  border-radius: 0.5rem;
-  transition: all 1s ease-in-out;
+@media all and (max-width: 640px) {
+  .nameTitle {
+    font-size: 3rem;
+    margin-top: 15rem;
+  }
+
+  .roleTitle {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: -3rem;
+  }
 }/*# sourceMappingURL=home.css.map */

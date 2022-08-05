@@ -1,5 +1,8 @@
 @import './variables.scss';
 
+.contact {
+    margin-top: 8rem;
+}
 
 .mainTitle {
     margin: 0;
@@ -33,11 +36,14 @@
             width: 20rem;
         }
     }
-    button {
-        margin: 0;
+    a button {
+        margin: 0 2rem;
         padding: 0;
         height: 3rem;
-        margin-right: 1rem;
+        border: none;
+        font-weight: 500;
+        letter-spacing: 3px;
+        cursor: pointer;
     }
 }
 
